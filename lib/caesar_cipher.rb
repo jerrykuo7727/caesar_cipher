@@ -33,13 +33,3 @@ def caesar_cipher(plaintext, key)
 	end
 	return asciis.join
 end
-
-puts "****************************"
-puts "* Caesar cipher encryption *"
-puts "****************************"
-print "Please enter a text: "
-text = gets.chomp
-print "Please enter a key: "
-key = gets.chomp.to_i
-cipher = caesar_cipher(text, key)
-puts "Cipher: #{cipher}"

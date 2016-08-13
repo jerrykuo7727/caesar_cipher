@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <title>凱薩加密法</title>
+</head>
+
+<body>
+  <h1>凱薩加密法</h1>
+  <form>
+    <div>
+      <textarea class="text" name="text" cols="30" rows="5"><%= cipher.chomp %></textarea>
+    </div>
+    <div>
+      鑰匙： <input id = "key" class="text" type='text' name="key">
+      <input type='submit' value='加密' name="encode"/>
+      <input type='submit' value='解密' name="decode"/>
+    </div>
+  </form>
+  <a href="https://zh.wikipedia.org/zh-tw/凱撒密碼">什麼是凱薩加密法？</a>
+</html>
