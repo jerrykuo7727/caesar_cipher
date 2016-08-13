@@ -1,4 +1,4 @@
-require "caesar_cipher.rb"
+require_relative "../lib/caesar_cipher.rb"
 
 describe 'caesar_cipher' do
   context "given 'HELLO, 3'" do
