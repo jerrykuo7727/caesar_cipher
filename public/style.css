@@ -2,6 +2,7 @@ body {
 	background: LightYellow;
   text-align: center;
   font-family: 'cwTeXHei', sans-serif;
+  font-weight: bolder;
 }
 
 h1 {
@@ -22,8 +23,10 @@ input {
   width: 10%;
   text-align: center;
   margin-right: 12px;
+
 }
 
 a {
   font-size: 18px;
+  font-weight: bolder;
 }
